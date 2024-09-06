@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# Gerenciador Escolar - Instituto Educacional Copacabana
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicação Movel`
 
-`SEMESTRE`
+`4º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de um aplicativo mobile para automatizar o processo de registro de notas e controle de presença em uma escola de ensino fundamental. Atualmente, essas atividades são realizadas de forma manual, utilizando planilhas de papel e cadernos de chamada, o que gera ineficiências, erros humanos e riscos de perda de dados.
+
+O objetivo do aplicativo é digitalizar esses processos, permitindo que os professores lancem notas e presenças de maneira rápida e eficiente, e que os pais possam acompanhar remotamente o desempenho acadêmico e a frequência de seus filhos. A solução visa otimizar o tempo gasto em tarefas administrativas, melhorar a segurança dos dados e facilitar a comunicação entre a escola e os responsáveis.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* David Silva Barbosa
+* Gabriel Henrique Penida de Jesus
+* Gustavo Coelho Reis
+* Luiz Felipe Almeida Oliveira
+* João Pedro Bomfim Victor
+* Savio Belfort Nascimento Gama
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
