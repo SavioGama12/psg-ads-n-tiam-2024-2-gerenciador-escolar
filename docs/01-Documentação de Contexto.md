@@ -1,46 +1,50 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O aplicativo para o Instituto Educacional Copacabana é uma solução digital desenvolvida para automatizar o registro de notas e controle de presença, facilitando o trabalho dos professores e proporcionando aos pais e alunos acesso rápido e seguro às informações acadêmicas. A plataforma busca modernizar processos manuais, oferecendo maior eficiência, segurança e transparência na gestão escolar.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A escola enfrenta desafios com o método manual e físico de registro de notas e controle de presença, que tem sido utilizado desde sua fundação. Os professores anotam as notas dos alunos em planilhas de papel e registram a presença em cadernos de chamada. Embora esse método seja familiar e considerado seguro devido à preservação física dos documentos, ele é altamente trabalhoso e suscetível a erros humanos, como a perda de registros e a dificuldade de organizar dados para relatórios.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A falta de tecnologia não só torna o processo lento, mas também aumenta o risco de perda de dados importantes por danos físicos aos documentos. Além disso, a compilação manual dos dados para relatórios mensais ou trimestrais consome tempo valioso, dificultando a comunicação eficiente com pais e responsáveis e prejudicando a agilidade nas atividades pedagógicas.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Durante reuniões com a diretoria e professores, foi identificado que, embora o método atual tenha sido eficaz no passado, ele já não atende às necessidades de uma gestão escolar moderna, tornando urgente a busca por soluções tecnológicas que automatizem esses processos e melhorem a eficiência e a segurança na escola.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo geral deste trabalho é desenvolver um aplicativo mobile que automatize o processo de registro de notas e controle de presença dos alunos em uma escola de ensino fundamental, substituindo o atual método manual e físico. A solução visa melhorar a eficiência, segurança e acessibilidade das operações escolares, facilitando o acesso a informações acadêmicas tanto para professores quanto para pais e responsáveis.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivo Específicos  
+
+1. **Implementar uma plataforma digital para registro de notas e presença:** Facilitar o lançamento e a organização das notas e presenças dos alunos, proporcionando uma interface intuitiva para os professores e reduzindo o tempo gasto com processos administrativos.
+2. **Fornecer acompanhamento remoto aos responsáveis e alunos:** Desenvolver funcionalidades que permitam que os pais acompanhem o desempenho acadêmico e a frequência de seus filhos de maneira remota, promovendo uma comunicação mais ágil e transparente entre a escola e as famílias.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O desenvolvimento desta aplicação se justifica pela necessidade de otimizar o tempo gasto no processo manual de registro de notas e controle de presença, que atualmente sobrecarrega os professores com tarefas administrativas demoradas e suscetíveis a erros. Ao digitalizar esses processos, a aplicação permitirá uma maior eficiência na inserção e organização dos dados, liberando mais tempo para atividades pedagógicas. Além disso, a plataforma facilitará o acompanhamento remoto por parte dos pais, proporcionando maior agilidade na comunicação e gestão escolar, sem comprometer a segurança e a acessibilidade das informações.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+`O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.`
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+### **Professores**
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+ - **Conhecimentos Prévios:** Familiaridade com métodos tradicionais de registro; conhecimento básico de tecnologia.
+ - **Relação com a Tecnologia:** Uso cotidiano de tecnologia, mas possível resistência a novos sistemas digitais.
+ - **Função:** Responsáveis pelo lançamento e acompanhamento das notas e presenças dos alunos.
+ 
+### **Responsáveis pelos Alunos**
+ 
+ - **Conhecimentos Prévios:** Variação no conhecimento tecnológico; uso de smartphones e aplicativos básicos.
+ - **Relação com a Tecnologia:** Familiaridade com comunicação digital e aplicativos simples; desejam acesso fácil às informações escolares.
+ - **Função:** Acompanham o desempenho acadêmico e a presença dos filhos.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ 
+### **Diretoria e Coordenação**
+ 
+ - **Conhecimentos Prévios:** Conhecimento intermediário a avançado em gestão escolar e tecnologia.
+ - **Relação com a Tecnologia:** Familiarizados com ferramentas digitais para gestão e comunicação.
+ - **Função:** Supervisão e coordenação das operações escolares e implementação de novas tecnologias.
+
+`Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.`
