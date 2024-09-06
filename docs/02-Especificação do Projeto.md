@@ -79,15 +79,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|O sistema deve permitir o cadastro de usuários, incluindo alunos, professores e a diretora.(Cada tipo de usuário deve ter permissões específicas).| ALTA | 
+|RF-002|O sistema deve permitir que os usuários façam login usando e-mail e senha.| ALTA |
+|RF-003|O sistema deve permitir que os professores adicionem, editem e excluam notas dos alunos para diferentes disciplinas.(Deve haver a possibilidade de adicionar comentários às notas,caso necessário).| ALTA |
+|RF-004|O sistema deve permitir que os professores registrem a presença ou ausência dos alunos em cada aula.(Deve haver uma funcionalidade para justificar ausências).| ALTA |
+|RF-005|Alunos devem poder visualizar suas notas e seu histórico de presença.| ALTA |
+|RF-006|Professores devem poder visualizar a lista de alunos e seus respectivos status depresença e desempenho.| ALTA |
+|RF-007|O sistema deve permitir que a diretora crie, edite e exclua turmas e disciplinas.| ALTA |
+|RF-008|O sistema deve permitir a exportação de dados de notas e presença em formatos como PDF.| BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RF-001|Usabilidade:A interface do usuário deve ser intuitiva e fácil de usar para todos os tipos de usuários.| ALTA |
+|RF-002|Desempenho:O sistema deve ser capaz de suportar até 5.000 usuários simultâneos sem queda de desempenho.| MÉDIA |
+|RF-003|Desempenho:A resposta ao usuário (tempo de carregamento) deve ser menor a 3 segundos para ações comuns (login, visualização de notas, etc.).| MÉDIA |
+|RF-004|Segurança:Todas as informações sensíveis, como senhas e dados pessoais,devem ser armazenadas de forma segura.| ALTA |
+|RF-005|Portabilidade:O sistema deve ser acessível via aplicativo móvel (iOS e Android).| ALTA |
+|RF-005|Portabilidade:Deve haver compatibilidade com as versões mais recentes dos sistemas operacionais.| ALTA |
+|RF-006|Escalabilidade:O sistema deve ser escalável para adicionar novas funcionalidades sem precisar de grandes revisões estruturais.| MÉDIA |
+|RF-007|Confiabilidade:O sistema deve garantir disponibilidade mínima de 95%.| ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -110,9 +122,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O sistema deverá ser entregue até o final do semestre |
+|02| Todos os membros do grupo devem participar ativamente do desenvolvimento |
+|03| Os envios de artefatos devem ser feitos no GitHub     |
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
